@@ -342,6 +342,14 @@ void draw(){
   text("manuel manny alvarado-christopher",600,6360,750,-alvin);
   }
   
+  //reiniciar
+  
+  void keyPressed(){ 
+    if(keyCode==ENTER){
+      alvin=600;
+      frameCount=0;
+    }
+  }
   
   
   
